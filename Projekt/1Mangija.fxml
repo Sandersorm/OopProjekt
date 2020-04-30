@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Projekt.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="170.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="432.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label prefHeight="76.0" prefWidth="173.0" text="Sisesta mängija nimi: " />
+            <Label prefHeight="76.0" prefWidth="138.0" text="Sisesta mängija perenimi: " />
+            <Label prefHeight="70.0" prefWidth="167.0" text="Sisesta mängija parim tulemus: " />
+         </children>
+      </VBox>
+      <VBox layoutX="169.0" prefHeight="400.0" prefWidth="433.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextArea prefHeight="85.0" prefWidth="433.0" />
+            <TextArea prefHeight="85.0" prefWidth="433.0" />
+            <TextArea prefHeight="85.0" prefWidth="433.0" />
+            <Button mnemonicParsing="false" prefHeight="147.0" prefWidth="440.0" text="Mängima!" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

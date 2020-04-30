@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import Projekt.Controller?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="688.0" style="-fx-border-color: Green;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Projekt.Controller">
+    <children>
+        <HBox layoutX="3.0" layoutY="2.0" prefHeight="135.0" prefWidth="688.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="1.0">
+            <children>
+                <Pane prefHeight="50.0" prefWidth="686.0" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Button layoutX="122.0" onAction="#pressButton1" text="1" />
+                        <Button layoutX="144.0" onAction="#pressButton2" text="2" />
+                        <Button layoutX="166.0" onAction="#pressButton3" text="3" />
+                        <Button layoutX="188.0" onAction="#pressButton4" text="4" />
+
+
+                        <Text layoutX="6.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vali mängijate arv" wrappingWidth="123.13671875">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Text>
+                  <Button layoutX="344.0" mnemonicParsing="false" onAction="#mängi" text="Mängi" />
+                    </children></Pane>
+            </children>
+        </HBox>
+      <AnchorPane layoutX="2.0" layoutY="215.0" prefHeight="208.0" prefWidth="686.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="214.0">
+         <children>
+            <AnchorPane layoutY="45.0" prefHeight="206.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="TOP_LEFT" prefHeight="34.0" prefWidth="171.0" text="Klikka nupule, et näha reegleid." />
+                  <Button layoutX="212.0" mnemonicParsing="false" onAction="#text" prefHeight="25.0" prefWidth="71.0" text= "Reeglid"/>
+                  <Label id="post" layoutX="-2.0" layoutY="45.0" prefHeight="162.0" prefWidth="688.0" text="Reeglid" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+    </children>
+</AnchorPane>
